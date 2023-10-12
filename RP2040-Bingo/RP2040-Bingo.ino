@@ -9,6 +9,7 @@ void setup()
 {
     pinMode(buttonPin, INPUT_PULLUP);
     Serial.begin(115200);
+    pinMode(BUILTIN_LED, OUTPUT);
     Serial.println("BINGO");
     Serial.println("Press button...");
     randomSeed(analogRead(A0));
@@ -18,6 +19,7 @@ void loop()
 {
     if (digitalRead(buttonPin) == LOW)
     {
+        digitalWrite(BUILTIN_LED, HIGH);
         delay(300);
         if (ind < arraySize)
         {
@@ -33,6 +35,7 @@ void loop()
                 Serial.println(bingoNumber);
                 Serial.println("");
                 showNumbers();
+                digitalWrite(25, LOW);
             }
         }
         else

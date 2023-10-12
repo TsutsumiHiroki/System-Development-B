@@ -16,11 +16,15 @@ Raspberry Pi 財団が開発した**RP2040マイコン**を搭載した開発基
 インターフェースにはI2C, UART, SPI, を搭載．
 GPIO pinは豪華にも26本搭載．小さいながらも高性能．
 
+## ピン配置
+
+[Datasheet](../Document/pico-datasheet.pdf#4)の4ページに記載されている．
+
 # Arduino-Pico
 
 [Arduino-Pico | Github](https://github.com/earlephilhower/arduino-pico)
 
-Arduinoの持つエコシステムにR2040を対応．
+Arduinoの持つエコシステムにRP2040を対応．
 
 ## ドキュメント
 
@@ -37,6 +41,11 @@ Arduinoの持つエコシステムにR2040を対応．
 
 # 動作
 
+Pico のD10番ピンに接続されているタクトスイッチを押すことでランダムな数字が抽選される．
+
+また，抽選が開始するとD25番ピンに接続されているLEDが点灯し，抽選が終わるとLEDが消灯する．
+
+![q](../Movie/IMG_8504.gif)
 
 
 

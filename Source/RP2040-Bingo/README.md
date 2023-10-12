@@ -18,7 +18,7 @@ GPIO pinは豪華にも26本搭載．小さいながらも高性能．
 
 ## ピン配置
 
-[Datasheet](../Document/pico-datasheet.pdf#4)の4ページに記載されている．
+[Datasheet](../../Document/pico-datasheet.pdf#4)の4ページに記載されている．
 
 # Arduino-Pico
 

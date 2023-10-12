@@ -28,7 +28,7 @@ Arduinoの持つエコシステムにRP2040を対応．
 
 ## ドキュメント
 
-[Arduino-Pico](https://arduino-pico.readthedocs.io/en/latest/)
+[Arduino-Pico | Website](https://arduino-pico.readthedocs.io/en/latest/)
 
 分かりやすい．(はず)
 
